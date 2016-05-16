@@ -1,0 +1,44 @@
+nav{
+  padding: 0px !important;
+}
+.sideNavLeft, .sideNavRight{
+  margin:0;
+  /*height: 100%;*/
+  /*width: 100px;*/
+  color: black;
+  background: #ccc;
+}
+.sideNavLeft{
+  flex: 1 6 10%;
+  order:1;
+}
+.sideNavRight{
+  flex: 1 6 10%;
+  order:3;
+  right: -200px;
+  display: none;
+}
+.sideNavRight ul, .sideNavLeft ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  display: block;
+}
+.sideNavLeft li, .sideNavRight li{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.sideNavLeft a, .sideNavRight a{
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 10px;
+  display: block;
+}
+.sideNavLeft a:hover{
+  border-left: 10px solid teal;
+}
+.sideNavRight  a:hover{
+  border-right: 10px solid teal;
+}
