@@ -1,7 +1,9 @@
 .mainContent{  
 	flex: 3 1 60%;
 	order: 2;
-	border: 1px solid firebrick;
+	/*border: 1px solid firebrick;*/
+	padding: 0px;
+	
   }
 #Content {
 /*background-color: red;*/
