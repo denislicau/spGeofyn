@@ -1,22 +1,22 @@
 <div class="loginContainer">
     <div class="loginHeader">
-          <h1>Log in</h1>
+          <h1 style="cursor: default;">Log in</h1>
     </div>
     <div class="loginForm">
-          <form action="/" method="post">
+          <form action="logging.php" method="post">
 
             <div class="field-wrap">
             <label>
               User name
             </label>
-            <input type="text"required autocomplete="off"/>
+            <input name="username" type="text"required autocomplete="off"/>
           </div>
 
           <div class="field-wrap">
             <label>
               Password
             </label>
-            <input type="password"required autocomplete="off"/>
+            <input name="password" type="password"required autocomplete="off"/>
           </div>
 
           <p class="forgot"><a href="#">Forgot Password?</a></p>

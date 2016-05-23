@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>{title}</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/navbar.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    $(".sideNavLeft").click(function(){
+    	if ($(".sideNavRight").css("display") == "none") {
+            $(".sideNavRight").animate({height: "468px"});
+            $(".sideNavRight").css({'position': 'absolute', 'z-index':'2','border':'1px solid #ccc', 'borderRadius':'10px'});
+        	$(".sideNavRight").show(800);
+    	}
+    	else{
+    		$(".sideNavRight").hide(800);
+    		//$(".sideNavRight").animate({right: "-200px"});
+
+    	}
+        //$(".maincontent").animate({paddingLeft: "100px"});
+
+    });
+});
+
+
+    </script>
+
+	</head>
+	<body>
+	<div class="page-wrap">
+		{header}
+		{maincontent}
+	</div>
+		{footer}
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    Include all compiled plugins (below), or include individual files as needed
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery-2.2.3.min.js"></script> -->
+
+	</body>
+</html>
