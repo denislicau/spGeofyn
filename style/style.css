@@ -1,0 +1,153 @@
+.mainContent{
+	flex: 3 1 60%;
+	order: 2;
+	/*border: 1px solid firebrick;*/
+	padding: 0px;
+
+  }
+#Content {
+/*background-color: red;*/
+/*height: calc(100% - 100px);*/
+height: 470px;
+display: flex;
+flex-flow: row;
+margin-top: 10px;
+}
+body{
+	/*background-color: green;*/
+	background-image: url("bodyBackground.jpg");
+}
+
+.clearfix{
+	clear: both;
+}
+#LogoImg{
+	width: 200px;
+	float: left;
+}
+.jumbotron{
+	margin: 0;
+	padding: 10px 0 30px 0;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#LogoHolder{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.footer {
+    background-color: #eee;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 10px 20px;
+    }
+#IconLinks ul{
+	list-style: none;
+	float: right;
+	margin-top:10px;
+	margin-bottom: 0;
+}
+#IconLinks li{
+	display: inline-block;
+	margin: 0 10px;
+}
+#IconLinks i{
+	font-size: 20px;
+}
+#Copyright h5{
+	text-align: center;
+}
+.fa-youtube{
+	color: red;
+}
+.fa-linkedin{
+	color: black;
+}
+.fa-instagram{
+	color: brown;
+}
+.footer > div{
+	width: 33%;
+	float: left;
+}
+
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+	margin-bottom: -60px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+	clear: both;
+}
+.footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+	height: 60px;
+}
+
+
+/*  Login css */
+
+.loginContainer{
+	margin: 40px auto;
+	background: white;
+	width: 50%;
+	padding: 10px 40px 10px 40px;
+	border-radius: 10px;
+	position: relative;
+}
+.loginContainer .loginHeader{
+	text-align: center;
+	border-bottom: 1px solid #EEE;
+}
+.loginContainer .loginForm{
+	padding-top: 20px;
+}
+.loginContainer .field-wrap > *{
+	width: 100%;
+	font-size: 24px;
+}
+.loginContainer .field-wrap{
+	width: 50%;
+	margin: 0 auto;
+}
+.loginContainer label{
+	text-align: center;
+	padding: 5px 0px;
+}
+.loginContainer p{
+	padding: 10px 0px;
+	width: auto;
+	text-align: center;
+}
+.loginContainer .button{
+	display: block;
+	position: relative;
+	padding: 10px 30px;
+	width: 30%;
+	margin: 25px auto 10px;
+	background: #3897f0;
+  border-color: #3897f0;
+  color: #fff;
+	cursor: pointer;
+	border: 1px solid #3897f0;
+	outline: none;
+	overflow: hidden;
+}
+.loginContainer .new-account{
+	width: auto;
+	float: right;
+}
+.loginForm::after{
+	  content: "";
+	  display: block;
+		clear: both;
+}
