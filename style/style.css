@@ -121,14 +121,33 @@ html, body {
 }
 .loginContainer label{
 	text-align: center;
+	padding: 5px 0px;
 }
 .loginContainer p{
+	padding: 10px 0px;
 	width: auto;
 	text-align: center;
 }
-.loginContainer button{
+.loginContainer .button{
+	display: block;
 	position: relative;
 	padding: 10px 30px;
 	width: 30%;
-	margin: 0 auto;
+	margin: 25px auto 10px;
+	background: #3897f0;
+  border-color: #3897f0;
+  color: #fff;
+	cursor: pointer;
+	border: 1px solid #3897f0;
+	outline: none;
+	overflow: hidden;
+}
+.loginContainer .new-account{
+	width: auto;
+	float: right;
+}
+.loginForm::after{
+	  content: "";
+	  display: block;
+		clear: both;
 }

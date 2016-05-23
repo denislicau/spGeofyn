@@ -21,8 +21,9 @@
 
           <p class="forgot"><a href="#">Forgot Password?</a></p>
 
-          <button class="button button-block"/>Log In</button>
+          <button class="button"/>Log In</button>
 
           </form>
+          <p class="new-account"><a href="#">Request new account</a></p>
     </div>
 </div>
