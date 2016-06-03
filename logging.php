@@ -20,7 +20,7 @@ if (mysqli_num_rows($result)==null) {
 
 $row=mysqli_fetch_array($result);
 
-	$dbpassword=$row['pass'];
+	$dbpassword=$row['password'];
 
 //echo "Retrieved from database;";
 
@@ -33,8 +33,8 @@ $row=mysqli_fetch_array($result);
  }
  else{
  	echo "Wrong username or password";
- 	header("refresh:1;url=index.php");	
+ 	header("refresh:1;url=index.php");
  }
 
-    
+
 ?>

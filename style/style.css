@@ -24,11 +24,17 @@ body{
 #LogoImg{
 	width: 200px;
 	float: left;
+
 }
 .jumbotron{
 	margin: 0;
-	padding: 10px 0 30px 0;
+	padding: 10px 0 15px 0;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.jumbotron:after{
+content: "";
+display: block;
+clear: both;
 }
 .jumbotron h2{
 	font-family: PT Serif;
@@ -38,7 +44,6 @@ body{
 #LogoHolder{
 	width: 60%;
 	margin-left: 20%;
-	margin-right: 20%;
 }
 .footer {
     background-color: #eee;
@@ -70,6 +75,13 @@ body{
 }
 .fa-instagram{
 	color: brown;
+}
+.fa-cog{
+	color: grey;
+}
+.fa-cog:hover{
+	color: black;
+	cursor: pointer;
 }
 .footer > div{
 	width: 33%;
@@ -155,4 +167,44 @@ html, body {
 	  content: "";
 	  display: block;
 		clear: both;
+}
+.fieldwrap{
+	float:left;
+}
+.fieldwrap:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#Settings{
+	width: 15%;
+	font-size: 3em;
+	float: right;
+	margin-right: 1%;
+	text-align: right;
+}
+#Settings ul{
+	list-style: none;
+	background-color: #444;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+#Settings a{
+	text-decoration: none;
+	color: white;
+}
+#Settings ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+		z-index: 999;
+		font-size: 0.7em;
+}
+#Settings:hover ul{
+	display: block;
+}
+#Settings li{
+	border-bottom: 1px solid white;
 }

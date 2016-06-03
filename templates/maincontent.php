@@ -1,7 +1,7 @@
 <div id="Content">
 	<nav class="sideNavLeft col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
 	    <ul>
-	      <li style="border-top: none;"><a href="#">1</a></li>
+	      <li style="border-top: none;"><a href="#">Locations</a></li>
 	      <li><a href="#">2</a></li>
 	      <li><a href="#">3</a></li>
 	      <li><a href="#">4</a></li>
