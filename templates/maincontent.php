@@ -18,7 +18,20 @@
 			</ul> -->
 		<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d290655.8589948922!2d10.4274656!3d55.3100076!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sdk!4v1463469384519" width="100%" height="470" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
-	<nav id="RightNav"class="sideNavRight col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">	    
+	<nav id="RightNav"class="sideNavRight col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
 	</nav>
-	<div class="clearfix"></div>
+</div>
+<div class="createLocationForm" id="LocForm">
+		<label>
+			Location Name :
+		</label>
+			<input type="text" name="name" value="">
+			<label>
+				Decsription :
+			</label>
+			<input type="text" name="description" value="">
+			<button type="button" name="button">Create New Location</button>
+</div>
+<div class="createLocationBtn" id="LocBtn">
+		<button type="button" name="button" onclick="HideCreateLocBtn()">Create Location</button>
 </div>

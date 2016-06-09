@@ -177,7 +177,7 @@ html, body {
 	clear: both;
 }
 #Settings{
-	width: 15%;
+	width: 10%;
 	font-size: 3em;
 	float: right;
 	margin-right: 1%;
@@ -205,6 +205,19 @@ html, body {
 #Settings:hover ul{
 	display: block;
 }
-#Settings li{
-	border-bottom: 1px solid white;
+.createLocationBtn{
+	width: 200px;
+	margin: 20px auto;
+	font-size: 24px;	
+}
+.createLocationForm{
+	display: none;
+	width: 83%;
+	font-size: 24px;
+	background: white;
+	margin: 20px auto;
+	padding: 20px;
+	border: 2px solid grey;
+	border-radius: 3px;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
 }
