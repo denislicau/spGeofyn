@@ -1,6 +1,6 @@
 <footer class="footer">
 	<div id="FooterCredit">
-		<h5 class="muted credit">Developed by Group1 Lillebælt Academy.</h5>	
+		<h5 class="muted credit">Developed by Group1 Lillebælt Academy.</h5>
 	</div>
 	<div id="Copyright">
 		<h5>Copyright © 2016 | Group FEDOV - All rights reserved</h5>
@@ -14,5 +14,5 @@
 	        <li><a href=""><i class="fa fa-twitter"></i></a></li>
 		</ul>
 	</div>
-	<p class="clearfix"></p>
+		<p class="clearfix"></p>
 </footer>

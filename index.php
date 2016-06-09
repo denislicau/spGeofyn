@@ -5,7 +5,7 @@ require('parser.php');
 // instantiate a template Parser object
 session_start();
 if ((isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == 1)) {
-  $parser=new htmlParser('mainPage.html');	
+  $parser=new htmlParser('mainPage.html');
 }
 else {
   $parser=new htmlParser('loginPage.html');

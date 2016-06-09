@@ -29,8 +29,29 @@
         //$(".maincontent").animate({paddingLeft: "100px"});
 
     });
-});
 
+});
+		var x = new XMLHttpRequest();
+		function DisplayInfos(loc,id){
+
+			var location = loc;
+	     x.open("GET","../spGeofyn/phpHandling/rightSidebarInfo.php?location="+location+"&id="+id,true);
+	     x.send(null);
+			 GetResponseXML();
+		}
+		function GetResponseXML() {
+			x.onreadystatechange = function() {
+			if (x.readyState == 4 && x.status == 200) {
+							document.getElementById("RightNav").innerHTML = x.responseText;
+					}
+			};
+			/*xResponse = x.ResponseText;
+			/*alert(x.ResponseText);
+			xmlDocument = xResponse.documentElement;
+			message = xmlDocument.firstChild.data;
+			document.getElementById('RightNav').innerHTML = message + "d";*/
+
+		}
 
     </script>
 

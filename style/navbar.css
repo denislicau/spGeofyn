@@ -7,10 +7,12 @@ nav{
   /*width: 100px;*/
   color: black;
   background: #ccc;
+  overflow-y: scroll;
 }
 .sideNavLeft{
   flex: 1 6 10%;
   order:1;
+
 }
 .sideNavRight{
   flex: 1 6 10%;
