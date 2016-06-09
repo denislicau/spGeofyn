@@ -28,6 +28,7 @@ $row=mysqli_fetch_array($result);
  	session_start();
  	$_SESSION['name'] = $row['username'];
  	$_SESSION['loggedin']= 1;
+ 	$_SESSION['userID'] = $row['userID'];
  	echo "succesfull login. Welcome,".$username;
  	header("refresh:1;url=index.php");
  }

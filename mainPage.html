@@ -12,6 +12,9 @@
     <link rel="stylesheet" type="text/css" href="style/navbar.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+    <script type="text/javascript" src="js/map.js"></script>
 
     <script type="text/javascript">
     	$(document).ready(function(){
@@ -46,12 +49,16 @@
 					}
 			};
 		}
-		function DisplayCreateLocBtn() {
-
+		function DisplayCreateLocBtn(userID) {
+			document.getElementById('LocBtn').style.display = "block";
+			document.getElementById('LocForm').style.display = "none";
+			DisplayPolygon(userID);
+			DisableCreateLocation();
 		}
 		function HideCreateLocBtn() {
 			document.getElementById('LocForm').style.display = "block";
 			document.getElementById('LocBtn').style.display = "none";
+			EnableCreateLocation();
 		}
 
     </script>

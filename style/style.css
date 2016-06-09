@@ -221,3 +221,10 @@ html, body {
 	border-radius: 3px;
 	box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
 }
+.createLocationForm > *{
+	display: inline-block;
+}
+.createLocationForm input{
+	font-size: 20px;
+	width: 200px;
+}
